@@ -1,17 +1,19 @@
-E-Commerce Store – Frontend Portfolio Project
+# 🛒 E-Commerce Store – Frontend Portfolio Project
 
 A modern and fully featured e-commerce frontend application built with Next.js 14, React 18, and TypeScript, focused on clean architecture, scalable state management, and a polished user experience.
 
 This project is part of my frontend portfolio and showcases advanced UI/UX design, reusable components, and real-world e-commerce functionality.
 
-✨ Live Demo
+---
 
-🛒 View the project live: https://ecommerce-store-xi-one.vercel.app/
+## ✨ Live Demo: https://ecommerce-store-xi-one.vercel.app/
 
-(![Desktop](image.png))
-(![Mobile](image-1.png))
+![Desktop](image.png)
+![Mobile](image-1.png)
 
-🚀 Features
+---
+
+## 🚀 Features
 
 - Product catalog with search, filters, and sorting
 
@@ -31,36 +33,42 @@ This project is part of my frontend portfolio and showcases advanced UI/UX desig
 
 - Smooth animations and loading states
 
-🧠 Project Structure
+---
 
+## 🧠 Project Structure
+
+```
 src/
 ├── app/
-│ ├── globals.css # Global styles and animations
-│ ├── layout.tsx # Root layout
-│ ├── page.tsx # Home page
-│ └── types.ts # Global TypeScript types
+│ ├── globals.css               # Global styles and animations
+│ ├── layout.tsx               # Root layout
+│ ├── page.tsx                 # Home page
+│ └── types.ts                 # Global TypeScript types
 │
 ├── components/
-│ ├── Header.tsx # Main navigation
-│ ├── Footer.tsx # Site footer
-│ ├── Hero.tsx # Hero section with carousel
-│ ├── ProductoCard.tsx # Product card component
-│ ├── ModalProducto.tsx # Quick view modal
-│ ├── CarritoPanel.tsx # Shopping cart panel
-│ ├── Checkout.tsx # Checkout flow
-│ ├── Favoritos.tsx # Favorites page
-│ ├── MisPedidos.tsx # Order history
-│ ├── SkeletonLoader.tsx # Loading states
-│ └── Toast.tsx # Notifications system
+│ ├── Header.tsx                        # Main navigation
+│ ├── Footer.tsx                        # Site footer
+│ ├── Hero.tsx                          # Hero section with carousel
+│ ├── ProductoCard.tsx                  # Product card component
+│ ├── ModalProducto.tsx                 # Quick view modal
+│ ├── CarritoPanel.tsx                  # Shopping cart panel
+│ ├── Checkout.tsx                      # Checkout flow
+│ ├── Favoritos.tsx                     # Favorites page
+│ ├── MisPedidos.tsx                    # Order history
+│ ├── SkeletonLoader.tsx                # Loading states
+│ └── Toast.tsx                         # Notifications system
 │
 ├── data/
-│ ├── productos.ts # Product catalog
+│ ├── productos.ts                    # Product catalog
 │ └── ProductosMejorados.ts
 │
 └── store/
-└── useStore.ts # Global state (Zustand)
+└── useStore.ts                      # Global state (Zustand)
+```
 
-⚙️ Tech Stack
+---
+
+## ⚙️ Tech Stack
 
 - Next.js
 
@@ -72,7 +80,9 @@ src/
 
 - Lucide React (icons)
 
-🧩 Key Implementation Details
+---
+
+## 🧩 Key Implementation Details
 
 - Global state management with Zustand
 
@@ -86,26 +96,46 @@ src/
 
 - Clean separation between UI, state, and data
 
-🛠 Installation & Usage
+---
+
+## 🛠 Installation & Usage
 
 npm install
 npm run dev
 
-🎯 Project Purpose
+---
+
+## 🎯 Project Purpose
 
 This project was built to:
 
-Demonstrate advanced frontend skills with React and Next.js
+- Demonstrate advanced frontend skills with React and Next.js
 
-Showcase real-world e-commerce features
+- Showcase real-world e-commerce features
 
-Apply scalable state management patterns
+- Apply scalable state management patterns
 
-Present a polished, production-style UI
+- Present a polished, production-style UI
 
-Serve as a key project in my frontend developer portfolio
+- Serve as a key project in my frontend developer portfolio
 
-👤 Author
+---
+
+## ⭐ Future Improvements
+
+- Authentication and user accounts
+
+- Backend integration (API / database)
+
+- Payment gateway integration
+
+- Full dark / light theme toggle
+
+- Admin dashboard for product management
+
+---
+
+## 👤 Author
 
 Andy Sebastian
 Frontend Developer
@@ -113,15 +143,3 @@ Frontend Developer
 GitHub: https://github.com/andydevsoftware
 
 Portfolio: In progress
-
-⭐ Future Improvements
-
-Authentication and user accounts
-
-Backend integration (API / database)
-
-Payment gateway integration
-
-Full dark / light theme toggle
-
-Admin dashboard for product management
