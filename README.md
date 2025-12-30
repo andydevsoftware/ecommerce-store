@@ -8,8 +8,8 @@ This project is part of my frontend portfolio and showcases advanced UI/UX desig
 
 Deployment in progress
 
-![desktop]()
-![mobile](image-1.png)
+(![Desktop](image.png))
+![Mobile](image-1.png)
 
 🚀 Features
 
