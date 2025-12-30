@@ -6,10 +6,10 @@ This project is part of my frontend portfolio and showcases advanced UI/UX desig
 
 ✨ Live Demo
 
-Deployment in progress
+🛒 View the project live: https://ecommerce-store-xi-one.vercel.app/
 
 (![Desktop](image.png))
-![Mobile](image-1.png)
+(![Mobile](image-1.png))
 
 🚀 Features
 
